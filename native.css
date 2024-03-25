@@ -1,0 +1,344 @@
+/*HOME PAGE START*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    min-height: 100vh;
+}
+.block a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-family: Calibri;
+    font-weight: bold;
+    padding: 40px;
+
+}
+.block li{
+    list-style-type: none;
+    display: inline-block;
+    flex-wrap: nowrap;
+}
+.block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid gray;
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+.intro{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 0.2rem;
+
+}
+.fuck{
+    border: 2px solid black;  
+}
+.fuck img{
+    display: block;
+}
+.shock{
+    padding-right: 1rem ;
+}
+a:hover,:focus{
+    text-decoration: underline  black;
+    color: red;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    color: rgb(49, 46, 46);
+}
+.example{
+    width: 15%;
+}
+.example img{
+    margin-top: 1rem;
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    border-radius: 150%;
+}
+.lock{
+    padding: 18px;
+    display: flex;
+    justify-content: space-around;
+}
+div h2{
+    color: black;
+    padding: 0.5rem;
+}
+.info{
+    background-color: rgb(41, 41, 124);
+    color: whitesmoke;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: grid;
+    grid-auto-flow: column;
+}
+.info img{
+    border: 2px ;
+    border-radius: 5%;
+}
+.info p{
+    padding: 0.5rem;
+}
+.info strong{
+    color: #000000;
+    font-size: 2rem;
+}
+.merge img{
+    display: inline-block;
+}
+.merge{
+    display: flex;
+    justify-content: end;
+    background-color:rgb(41, 41, 124);
+    gap: 0.5rem;
+    padding-right: 0.5rem;
+    border: 1px solid black;
+}
+
+.merge p{
+    display: block;
+    display: flex;
+    margin: auto;
+}
+
+/*HOME PAGE END*/
+
+/*SHOP PAGE START*/
+
+body{
+    background-color: rgb(255, 253, 253);
+}
+h1{
+    text-align: center;
+    padding: 25px;
+    background-color: rgb(211, 199, 199);
+}
+h1 a{
+    color: rgb(121, 121, 209);
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.sucker p{
+    padding: 2.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.shop {
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    margin-inline: auto;
+    align-content: space-evenly;
+}
+.luck{
+    box-shadow: 4px 7px 7px 0px #00000042;
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 5%;
+    background-color: #fff;
+}
+.luck:nth-child(5){
+    order: -1;
+}
+.luck img{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.luck p{
+    color:black;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.2rem;
+}
+.luck button{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid green;
+    justify-content: center;
+    margin: 20px;
+    width: 200px;
+    color: red;
+    font-weight: bold;
+    background-color: white;
+    text-decoration: none;
+}
+button:hover{
+    background-color: green;
+}
+/*SHOP PAGE End*/
+
+/*Gallery PAGE START*/
+
+.wrap {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.wrap  img{
+    width: 350px;
+    height: 300px;
+    border: 2px solid gray;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+.wrap img:hover{
+    transform: scale(1.03);
+}
+
+/*Gallery PAGE END*/
+
+/*ABOUT PAGE START*/
+
+.profile{
+    display: block;
+    display: flex;
+    text-align: center;
+    margin: 5%;
+}
+
+
+.profile img{
+    width: 40%;
+    height: 40%;
+    padding: 1rem;
+    border-radius: 50%;
+}
+.profile li{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: start;
+    padding: 1rem;
+    flex-wrap: wrap;
+    text-align: justify;
+    list-style-type: disc;
+    margin-left: 5%;
+    color: #353434;
+}
+.profile h2{
+    font-size: 2rem;
+    padding: 1rem;
+    color: green;
+}
+
+/*ABOUT PAGE END*/
+
+/*DAYSPECIAL PAGE START*/
+
+
+.night {
+    margin: auto;
+    display: flex;
+    gap: 2rem;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    margin-inline: auto;
+    align-content: space-evenly;
+}
+.hook{
+    padding: 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 5%;
+    background-color: #fff;
+    box-shadow: 4px 7px 7px 0px #00000042;
+}
+
+.hook img{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+.hook p{
+    color:black;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.2rem;
+}
+.hook button{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid green;
+    justify-content: center;
+    margin: 20px;
+    width: 200px;
+    color: red;
+    font-weight: bold;
+    background-color: white;
+    text-decoration: none;
+}
+button:hover{
+    background-color: green;
+}
+.hook h2{
+    border: 2px solid black;
+    color: red;
+    background-color: rgb(120, 120, 230);
+}
+
+/*DAYSPECIAL PAGE END*/
+
+
+/*CONTACT US PAGE START*/
+
+.key{
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100px;
+    flex-wrap: wrap;
+}
+.key p{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0.2rem;
+}
+.key h3{
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.2rem;
+}
+.key img{
+    padding: 1rem;
+}
+.key div{
+    border: 2px solid white;
+    border-radius: 5%;
+    box-shadow: 2px 5px 5px 2px #00000042;
+}
+.key div a{
+    display: block;
+    text-align: center;
+}
+.map{
+    height: 170;
+    width: 320;
+    border-radius: 5%;
+}
+
+/*CONTACT US PAGE End*/
